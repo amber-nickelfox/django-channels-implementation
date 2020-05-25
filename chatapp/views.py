@@ -1,3 +1,10 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def index(request):
+    """
+    Index view
+    :param request:
+    :return:
+    """
+    return render(request, "chatapp/index.html")
