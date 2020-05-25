@@ -68,7 +68,7 @@ TEMPLATES = [
         },
     },
 ]
-ASGI_APPLICATION = 'chatapp.routing.application'
+ASGI_APPLICATION = 'channelschatapp.routing.application'
 
 WSGI_APPLICATION = 'channelschatapp.wsgi.application'
 

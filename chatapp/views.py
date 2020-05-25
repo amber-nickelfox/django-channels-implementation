@@ -13,6 +13,15 @@ def index(request):
 def room(request, room_name):
     """
     Enter in room
+    It is good practice to use a common path prefix
+    like /ws/ to distinguish WebSocket connections
+    from ordinary HTTP connections because it will
+    make deploying Channels to a production environment
+    in certain configurations easier.It is good practice
+    to use a common path prefix like /ws/ to distinguish
+     WebSocket connections from ordinary HTTP connections
+     because it will make deploying Channels to a production
+     environment in certain configurations easier.
     :param request:
     :param room_name:
     :return:
